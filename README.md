@@ -24,6 +24,11 @@ Sensor Slot booking routing is done in class com.example.demo.AutomaticIrrigatio
 mvn exec:java
 ```
 
+### Test Cases
+```sh
+Test class is under src/test/java/AISTests
+```
+
 Application is running in embedded tomcat server on localhost port 8080. H2 is a in memory database which has been initialized with some sample plot details through sql script 'data.sql' placed under resources folder 
 
 - http://localhost:8080/api/v1/plot
