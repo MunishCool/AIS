@@ -14,8 +14,7 @@ com.example.demo.AutomaticIrrigationSystemApplication
 
 ### API URL Routings
 
-All the plot land related end points routing is done in the class as below path.
-com.example.demo.PlotLandController
+All the plot land related end points routing is done in the class as below path com.example.demo.PlotLandController
 
 Sensor Slot booking routing is done in class com.example.demo.AutomaticIrrigationController
 
@@ -27,10 +26,11 @@ mvn exec:java
 
 Application is running in embedded tomcat server on localhost port 8080. H2 is a in memory database which has been initialized with some sample plot details through sql script 'data.sql' placed under resources folder 
 
-- http://localhost:7000/api/user/test1
-- http://localhost:7000/api/user/test2
-- http://localhost:7000/api/account/1
-- http://localhost:7000/api/account/2
+- http://localhost:8080/api/v1/plot
+- http://localhost:8080/api/v1/plot/2
+- http://localhost:8080/api/v1/plots
+- http://localhost:8080/api/v1/configure/plot
+- http://localhost:8080/api/v1/irrigation/1/true
 
 
 ### Available Rest API's for Plot
